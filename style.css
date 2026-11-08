@@ -1,0 +1,145 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+   font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #14213d;
+    padding: 20px 8%;
+}
+
+/* Navbar */
+.navbar {
+   
+    color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+    color: #fca311;
+}
+
+/* Home Section */
+#home {
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 8%;
+    background-color: white;
+}
+
+.home-content h1 {
+    font-size: 40px;
+    color: #14213d;
+}
+
+.home-content h2 {
+    color: #fca311;
+    margin: 10px 0;
+}
+
+.home-content p {
+    margin-bottom: 25px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #14213d;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fca311;
+}
+
+/* Profile Image */
+.hero-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Common Sections */
+section:not(#home) {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #14213d;
+}
+
+/* Education Card */
+.education-card,
+.project-card {
+    background-color: white;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills-list div {
+    background-color: #14213d;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
